@@ -2,7 +2,7 @@ rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
     match /submissions/{submissionId} {
-      allow create: if
+      allow create: if !exists(/databases/$(database)/documents/submissions/$(submissionId)) &&
         request.resource.data.keys().hasAll(['name','whatsapp','studentKey','answers','score','percentage','submittedAt']) &&
         request.resource.data.studentKey == submissionId &&
         request.resource.data.answers.size() == 10 &&
