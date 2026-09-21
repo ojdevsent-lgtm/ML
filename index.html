@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Math League Competition</title><link rel="stylesheet" href="styles.css"></head>
+<body><header><div class="brand">MATH LEAGUE</div><div class="badge">2026 COMPETITION</div></header>
+<main><section id="home" class="card"><h1>Mathematics Competition</h1><p>10 questions • One attempt only</p><form id="studentForm"><label>Full name<input id="name" required autocomplete="name"></label><label>WhatsApp number<input id="whatsapp" required inputmode="tel" placeholder="+234..." autocomplete="tel"></label><button>Start Quiz</button></form><p id="homeMsg" class="msg"></p></section>
+<section id="quiz" class="hidden"><div class="top"><div><span id="studentDisplay"></span><h2>Answer all questions</h2></div><div class="timer">10 QUESTIONS</div></div><form id="quizForm"></form><button id="submitQuiz" class="submit">Submit Quiz</button><p id="quizMsg" class="msg"></p></section>
+<section id="result" class="card hidden"><h1>Submission received</h1><div id="score" class="score"></div><p>Your result has been recorded. This quiz can only be submitted once for this WhatsApp number.</p><button id="backHome">Done</button></section>
+<section id="adminLogin" class="card hidden"><h1>Admin Dashboard</h1><form id="adminForm"><label>Password<input id="adminPassword" type="password" required></label><button>Open Dashboard</button></form><p id="adminMsg" class="msg"></p></section>
+<section id="dashboard" class="hidden"><div class="dashHead"><div><h1>Submissions</h1><p id="stats"></p></div><button id="logout">Log out</button></div><div class="tableWrap"><table><thead><tr><th>Name</th><th>WhatsApp</th><th>Score</th><th>Percentage</th><th>Submitted</th></tr></thead><tbody id="rows"></tbody></table></div></section>
+</main><footer>Math League Competition</footer><script type="module" src="src/main.js"></script></body></html>
