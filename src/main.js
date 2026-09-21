@@ -1,13 +1,13 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/12.2.1/firebase-app.js";
 import { getFirestore, collection, addDoc, query, orderBy, getDocs, serverTimestamp } from "https://www.gstatic.com/firebasejs/12.2.1/firebase-firestore.js";
 
-const firebaseConfig={apiKey:"AIzaSyDUMMY_REPLACE_WITH_YOUR_EXISTING_KEY",authDomain:"mlgo-86f79.firebaseapp.com",projectId:"mlgo-86f79",storageBucket:"mlgo-86f79.firebasestorage.app",messagingSenderId:"166999251760",appId:"1:166999251760:web:63a3afbdfaf7d6b90346f5",measurementId:"G-JEC3PT5219"};
+const firebaseConfig={apiKey:"AIzaSyDbV4R5qAD80pZ8KqTHIiHFkXwQsNwWGr0",authDomain:"mlgo-86f79.firebaseapp.com",projectId:"mlgo-86f79",storageBucket:"mlgo-86f79.firebasestorage.app",messagingSenderId:"166999251760",appId:"1:166999251760:web:63a3afbdfaf7d6b90346f5",measurementId:"G-JEC3PT5219"};
 const db=getFirestore(initializeApp(firebaseConfig));
 
 const questions=[
 ["Arrange 1/8, 1/7, 1/4, 11/56, 17/56 in ascending order.",["1/8, 1/7, 11/56, 1/4, 17/56","1/8, 1/7, 1/4, 11/56, 17/56","1/7, 1/8, 11/56, 1/4, 17/56","1/8, 11/56, 1/7, 1/4, 17/56"],"A"],
 ["Simplify (2 1/2 + 1/3 − 1 3/4) ÷ (1/2 + 1 1/3 − 1 1/4).",["3/4","5/6","7/8","13/12"],"D"],
-["Simplify 11/8 × 11/7 − 6/5 ÷ 4/5.",["121/56 − 3/4","85/56","247/140","29/14"],"C"],
+["Simplify 11/8 × 11/7 − 6/5 ÷ 4/5.",["121/56 − 3/2","85/56","37/56","29/14"],"C"],
 ["Ade gets 3/5 of a total amount. Nelly gets 1/3 of the remainder and Austin gets the rest. If Austin exceeds Nelly by ₦3,000, how much does Austin receive?",["₦9,000","₦10,500","₦12,000","₦13,500"],"D"],
 ["A salary is spent as follows: 1/4 on rent, 2/5 on food and 1/6 on education. What fraction is left?",["11/60","13/60","1/5","7/30"],"A"],
 ["192039 is corrected to 192000. Which is a possible approximation figure?",["192","1.92 × 10⁴","1.920 × 10⁶","1.92 × 10⁵"],"D"],
