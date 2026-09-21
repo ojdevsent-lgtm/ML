@@ -10,7 +10,7 @@ const questions=[
 ["Simplify 11/8 × 11/7 − 6/5 ÷ 4/5.",["121/56 − 3/2","85/56","37/56","29/14"],"C"],
 ["Ade gets 3/5 of a total amount. Nelly gets 1/3 of the remainder and Austin gets the rest. If Austin exceeds Nelly by ₦3,000, how much does Austin receive?",["₦9,000","₦10,500","₦12,000","₦13,500"],"D"],
 ["A salary is spent as follows: 1/4 on rent, 2/5 on food and 1/6 on education. What fraction is left?",["11/60","13/60","1/5","7/30"],"A"],
-["The number 192039 was corrected to 192000 by a student. Which of the following can be the correct approximation of figures taken?",["I and II only","II and III only","III and IV only","I, II, III and IV"],"D"],
+["The number 192039 was corrected to 192000 by a student. Which of the following can be the correct approximation of figures taken:\n\nI – to the nearest hundred\nII – to the nearest thousand\nIII – to 3 significant figures\nIV – to 4 significant figures",["I and II only","II and III only","III and IV only","I, II, III and IV"],"D"],
 ["A change of ₦75 is given instead of ₦80. What is the percentage error?",["5.0%","6.0%","6.3%","7.0%"],"C"],
 ["A rectangular table measured 36 cm × 44 cm instead of the actual 37 cm × 41 cm. What is the percentage error in perimeter?",["1.3%","2.0%","2.3%","2.6%"],"D"],
 ["A measured distance of 3.62 km is 5% more than the actual distance. What is the actual distance?",["3.40 km","3.45 km","3.50 km","3.60 km"],"B"],
